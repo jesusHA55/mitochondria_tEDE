@@ -16,7 +16,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - TBD: Physical positioning of the 40-pin elevated female header to clear the Pi 5 Active Cooler.
 
 ---
-
+## [0.1.2-alpha] - 2026-03-16
+### Changed the internal names to Medulla
+## [0.1.1-alpha] - 2026-03-16
+### Added completed BMS + new subschematics
 ## [0.1.0-alpha] - 2026-03-16
 ### Initial Schematic Draft & Hardware Architecture
 
