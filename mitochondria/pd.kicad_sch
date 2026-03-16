@@ -467,6 +467,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:MBR340"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR340"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBR340_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR340_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:VS-6TQ045S-M3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -637,6 +787,299 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mc_Symbols:LM2678S-12"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LM2678S-12"
+				(at -20.066 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LM2678S-12:TO127P1435X464-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "8V to 40V, 5A SIMPLE SWITCHER® buck converter with high efficiency"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "TO-263-7 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2678S-12/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM2678S-12/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM2678S-12/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM2678S-12_0_0"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -20.32 90)
+					(length 5.08)
+					(name "ON/~OFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -20.32 90)
+					(length 5.08)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "BOOST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mc_Symbols:LM2678S-5.0"
 			(pin_names
 				(offset 1.016)
@@ -644,20 +1087,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at -11.43 20.32 0)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Value" "LM2678S-5.0"
-				(at -6.096 17.78 0)
+				(at -12.7 -19.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "LM2678S-5.0:TO127P1435X464-8N"
@@ -770,8 +1217,8 @@
 			)
 			(symbol "LM2678S-5.0_0_0"
 				(rectangle
-					(start -12.7 -15.24)
-					(end 12.7 15.24)
+					(start -12.7 17.78)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -781,7 +1228,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 12.7 0)
+					(at -17.78 15.24 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -799,7 +1246,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -3.81 -20.32 90)
+					(at -2.54 -17.78 90)
 					(length 5.08)
 					(name "ON/~OFF"
 						(effects
@@ -817,7 +1264,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -20.32 90)
+					(at 0 -17.78 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -835,7 +1282,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -20.32 90)
+					(at 0 -17.78 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -854,7 +1301,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 3.81 -20.32 90)
+					(at 2.54 -17.78 90)
 					(length 5.08)
 					(name "N.C."
 						(effects
@@ -872,7 +1319,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "FB"
 						(effects
@@ -890,7 +1337,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 6.35 180)
+					(at 17.78 8.89 180)
 					(length 5.08)
 					(name "BOOST"
 						(effects
@@ -908,7 +1355,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 0 180)
+					(at 17.78 2.54 180)
 					(length 5.08)
 					(name "SW"
 						(effects
@@ -921,6 +1368,131 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1292,6 +1864,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Kinect Supply, 12V 1.5A (Max)\n"
+		(exclude_from_sim no)
+		(at 137.668 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22400944-1c8f-47ed-92ac-159d8013c562")
+	)
+	(text "RPi Supply, 5V 5A (Max)\n"
+		(exclude_from_sim no)
+		(at 152.908 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b958271e-c1cb-4edc-b3b2-56b6972700b2")
+	)
 	(junction
 		(at 43.18 74.93)
 		(diameter 0)
@@ -1323,6 +1915,12 @@
 		(uuid "2c10cfc3-1d83-467c-b1e2-2124f5182306")
 	)
 	(junction
+		(at 36.83 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36bcca93-accf-4a8d-bb2e-d160b3def8b8")
+	)
+	(junction
 		(at 165.1 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1341,6 +1939,12 @@
 		(uuid "636828de-c97f-4540-8d6c-9f85952fbacc")
 	)
 	(junction
+		(at 36.83 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66390bbd-80d6-4503-a615-4a6d8e386d3c")
+	)
+	(junction
 		(at 152.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1353,10 +1957,64 @@
 		(uuid "70b70c0b-6f2a-4b45-a669-1fb754dde779")
 	)
 	(junction
+		(at 43.18 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74fa7581-b985-4b0e-907c-f2e423704d47")
+	)
+	(junction
+		(at 30.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78beab98-6378-424d-ab39-90f900bab38f")
+	)
+	(junction
+		(at 137.16 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "945a508c-5c11-4d00-8412-ce895d21e9a3")
+	)
+	(junction
+		(at 49.53 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d50243-de06-4c73-baa0-79878cfccabc")
+	)
+	(junction
 		(at 36.83 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53c922f-ec29-4c34-a5c8-86ffe19f4d82")
+	)
+	(junction
+		(at 152.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73208a4-fbdc-4fe2-aff0-08b91aa7e062")
+	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b78ed0e8-31ca-4635-a0d2-2b70a68e67de")
+	)
+	(junction
+		(at 49.53 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c18de00e-bef1-43b1-9563-d0b7ba501070")
+	)
+	(junction
+		(at 43.18 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea6edf1-19d3-464c-88e7-7d3177907854")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6a402c-1bc6-43ed-a8f1-4924d19188bf")
 	)
 	(junction
 		(at 30.48 35.56)
@@ -1392,6 +2050,46 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 101.6) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec3d98c-9773-4adf-8517-a0916b531d0c")
+	)
+	(wire
+		(pts
+			(xy 25.4 99.06) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14dc5a80-d56f-4735-bf49-30f228722a7b")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18be3366-e19c-48c5-88a7-31ddd5baf0c2")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 96.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b305c24-4035-4fa4-8591-2a42c71e9db1")
+	)
+	(wire
+		(pts
 			(xy 30.48 35.56) (xy 30.48 39.37)
 		)
 		(stroke
@@ -1409,6 +2107,26 @@
 			(type default)
 		)
 		(uuid "1fffc69b-4528-4ee0-90d8-1b3e9c249db2")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303cd871-91ae-4afa-8c15-554adaaa8d7d")
+	)
+	(wire
+		(pts
+			(xy 49.53 110.49) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c6693e-6582-4ff3-966e-0a8c231f6366")
 	)
 	(wire
 		(pts
@@ -1432,6 +2150,36 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edfb1e6-d05d-4ebc-a169-c27e7f465277")
+	)
+	(wire
+		(pts
+			(xy 43.18 110.49) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b43232-bf38-4f35-acae-d3df1aad59ec")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af0ef34-754e-48b6-937d-802bf612b424")
+	)
+	(wire
+		(pts
 			(xy 114.3 38.1) (xy 152.4 38.1)
 		)
 		(stroke
@@ -1439,6 +2187,16 @@
 			(type default)
 		)
 		(uuid "4d59d3bd-a8df-4484-a620-09acf32b0a6e")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5cf14f-3449-40f0-bbf5-68b8fe9e47cf")
 	)
 	(wire
 		(pts
@@ -1462,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 138.43) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5108d806-20fb-4677-acdd-c6114f6fe1ef")
+	)
+	(wire
+		(pts
 			(xy 49.53 74.93) (xy 96.52 74.93)
 		)
 		(stroke
@@ -1469,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "55c11ccc-52df-42b1-a10f-15c2adde4ded")
+	)
+	(wire
+		(pts
+			(xy 30.48 138.43) (xy 36.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2eb568-e5ce-4828-864e-13784bd4d50f")
 	)
 	(wire
 		(pts
@@ -1492,6 +2270,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 121.92) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a18054f-ceb8-4218-adfd-a2a1bacd605c")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be4bd4a-5787-4a23-bdfc-c8ccb3167268")
+	)
+	(wire
+		(pts
 			(xy 36.83 35.56) (xy 36.83 39.37)
 		)
 		(stroke
@@ -1499,6 +2297,16 @@
 			(type default)
 		)
 		(uuid "6d159cac-6801-4559-a1c1-d32a6c064aa6")
+	)
+	(wire
+		(pts
+			(xy 49.53 138.43) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725a1656-e6c4-4aee-b3c3-bfd787136263")
 	)
 	(wire
 		(pts
@@ -1512,6 +2320,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 48.26) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78eccaf5-f703-422c-94db-906f191e0c82")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 96.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de23bb3-82a3-4333-8768-23fc6a24ac7a")
+	)
+	(wire
+		(pts
 			(xy 165.1 48.26) (xy 168.91 48.26)
 		)
 		(stroke
@@ -1519,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "7e48e386-e914-4c23-a9eb-535b345786a9")
+	)
+	(wire
+		(pts
+			(xy 30.48 99.06) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d41938-45d4-4a72-9e75-7f804aeb847b")
 	)
 	(wire
 		(pts
@@ -1582,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9898e06b-88bd-47e5-acea-5cb300260130")
+	)
+	(wire
+		(pts
 			(xy 128.27 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -1592,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 99.06) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3292816-12c3-422a-b9d0-67a7c21ab653")
+	)
+	(wire
+		(pts
 			(xy 49.53 35.56) (xy 78.74 35.56)
 		)
 		(stroke
@@ -1599,6 +2457,16 @@
 			(type default)
 		)
 		(uuid "a48fd77d-bc56-4b13-851e-6db3bea6cfb1")
+	)
+	(wire
+		(pts
+			(xy 36.83 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79e207c-6a26-4365-943e-0da5d4c3fb61")
 	)
 	(wire
 		(pts
@@ -1662,6 +2530,36 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 110.49) (xy 36.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae22c75-cf0b-41c7-96e4-1da9b1e3c05e")
+	)
+	(wire
+		(pts
+			(xy 43.18 99.06) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5b4ab8-838d-4bb5-9174-2c3d524d49e0")
+	)
+	(wire
+		(pts
+			(xy 137.16 138.43) (xy 152.4 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff8bb7d-173d-47ce-8d5f-ba36215f6163")
+	)
+	(wire
+		(pts
 			(xy 152.4 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -1669,6 +2567,36 @@
 			(type default)
 		)
 		(uuid "c09a2176-68d0-42ab-8b62-c902533e0c92")
+	)
+	(wire
+		(pts
+			(xy 49.53 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f515b4-96e0-4b4f-9afe-ef4a84d5caa7")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47394c3-9c84-44e7-949c-395371432e4e")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdac1585-97da-4a63-b797-955ee745250a")
 	)
 	(wire
 		(pts
@@ -1682,6 +2610,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 99.06) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b92f4c-8bb6-429c-91ed-90acfd40cf80")
+	)
+	(wire
+		(pts
 			(xy 152.4 48.26) (xy 165.1 48.26)
 		)
 		(stroke
@@ -1689,6 +2627,16 @@
 			(type default)
 		)
 		(uuid "d59fd82f-152b-4cc1-9af7-4f1bfa4c8e89")
+	)
+	(wire
+		(pts
+			(xy 43.18 138.43) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d678b067-b4ac-463e-801a-0466a827183a")
 	)
 	(wire
 		(pts
@@ -1712,6 +2660,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19ed1c1-8f4a-4c3d-a07f-83ac75978f84")
+	)
+	(wire
+		(pts
 			(xy 30.48 74.93) (xy 36.83 74.93)
 		)
 		(stroke
@@ -1719,6 +2677,26 @@
 			(type default)
 		)
 		(uuid "e6471b78-8d50-41aa-b7b7-ef30fa3ab80e")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 36.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ea9985-3256-440a-94f2-297826c75f48")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ff10b4-6737-4843-b3ac-f75982dff5a0")
 	)
 	(wire
 		(pts
@@ -1732,6 +2710,36 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 99.06) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa840302-dc3f-4774-8843-a21f1993a8d6")
+	)
+	(wire
+		(pts
+			(xy 30.48 110.49) (xy 30.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6ef39d-0ff5-4803-8720-3754aadd4fe9")
+	)
+	(wire
+		(pts
+			(xy 30.48 99.06) (xy 30.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6f0fbd-c6b2-43ae-a130-8e7c01b69144")
+	)
+	(wire
+		(pts
 			(xy 43.18 74.93) (xy 49.53 74.93)
 		)
 		(stroke
@@ -1739,6 +2747,73 @@
 			(type default)
 		)
 		(uuid "fd728467-58e8-4f6b-82bc-0a271c952f59")
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc742ee-8c85-4d27-a7f0-ad25f469d6f6")
+		(property "Reference" "#PWR04"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 21.59 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe3b703-42bd-43f9-8ca3-0bb72b176ada")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:-BATT")
@@ -1808,6 +2883,75 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
+		(at 43.18 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17b80b37-d1e1-46d9-85b0-4acf92a0a742")
+		(property "Reference" "C3"
+			(at 42.164 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15u"
+			(at 41.91 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.1452 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPRAGUE 594D"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24d5b881-69e2-430d-afc7-de2db00be4c6")
+		)
+		(pin "2"
+			(uuid "be498391-ba4e-4716-b688-e61039430a4a")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 43.18 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1851,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "SPRAGUE 594D"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -1876,6 +3020,242 @@
 			(project "mitochondria"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mc_Symbols:LM2678S-12")
+		(at 96.52 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d15399a-792d-445a-adad-f77c299b8f98")
+		(property "Reference" "U1"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2678S-12"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM2678S-12:TO127P1435X464-8N"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "8V to 40V, 5A SIMPLE SWITCHER® buck converter with high efficiency"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TO-263-7 Texas Instruments"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2678S-12/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM2678S-12/NOPB"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM2678S-12/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 96.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16b043b9-2d60-476a-9ee6-76a9262d766b")
+		)
+		(pin "7"
+			(uuid "bfb67a38-63ba-4b4e-9dd6-2ec2237f1857")
+		)
+		(pin "6"
+			(uuid "8f41ab2c-8138-4428-a0ac-3062ca0210f3")
+		)
+		(pin "3"
+			(uuid "44113f74-2f1e-44b7-881a-271e13db449d")
+		)
+		(pin "8"
+			(uuid "626fe9ef-98bd-4146-b14b-96ce84047e3c")
+		)
+		(pin "4"
+			(uuid "3f5b2fe1-7f87-4d5e-ac1c-e15ec4ed13a4")
+		)
+		(pin "5"
+			(uuid "2eae9e2a-49d5-4dd8-9a0a-79d68e6744dd")
+		)
+		(pin "1"
+			(uuid "b9d9d85b-ac99-4114-aa43-eeb9cbadbba2")
+		)
+		(instances
+			(project ""
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 152.4 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c43e4a1-5f3f-475b-ae0b-b7e2323b52a0")
+		(property "Reference" "C6"
+			(at 144.78 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180u"
+			(at 143.51 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.3652 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPRAGUE 594D"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b073de-ef09-4757-a6f5-dd8066519cd3")
+		)
+		(pin "2"
+			(uuid "86e7a1ea-51b6-49b0-af60-00a5ef5994c5")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1926,7 +3306,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "SPRAGUE 594D"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -2001,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "SPRAGUE 594D"
 			(at 30.48 43.18 0)
 			(effects
 				(font
@@ -2101,6 +3490,279 @@
 			(project ""
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 143.51 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595117da-31de-43da-b805-99daf42e6ed7")
+		(property "Reference" "L1"
+			(at 143.51 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33u"
+			(at 143.51 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PE-54040S"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50f74dfe-5829-462c-996c-cc5b6f283058")
+		)
+		(pin "1"
+			(uuid "fda2e32f-5a68-4330-919d-4b3ea1691efc")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 36.83 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62be2300-ecdc-4e10-9df5-ad4d18849341")
+		(property "Reference" "C2"
+			(at 35.814 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15u"
+			(at 35.56 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.7952 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPRAGUE 594D"
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3295c2bb-55bf-4d32-b940-63dba4540d85")
+		)
+		(pin "2"
+			(uuid "a74201a1-427c-44be-841f-048bb2dd3906")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b41821b-aa21-4692-94b1-422a9ffb6280")
+		(property "Reference" "C4"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 47.498 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.4952 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca392ad-3723-4d77-a8d1-becf76e3192a")
+		)
+		(pin "2"
+			(uuid "8b7962fb-df73-44c9-a8fb-e1eab08a8a4e")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7132eaf1-9b84-4e45-8005-7110bc16fa35")
+		(property "Reference" "C5"
+			(at 120.65 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 129.286 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 104.4448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a3ec5a8-9703-4289-88e1-5ef03e184f75")
+		)
+		(pin "1"
+			(uuid "273f7ec2-6a56-40da-b9fc-f1c26a6cecea")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2231,6 +3893,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 96.52 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f50cb26-7816-4b01-aaaf-ad37971467f7")
+		(property "Reference" "#PWR05"
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2057d355-5359-41f4-a8f1-d08d3a727ad4")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 168.91 48.26 270)
 		(unit 1)
@@ -2315,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Value" "22uH"
+		(property "Value" "22u"
 			(at 143.51 45.72 90)
 			(effects
 				(font
@@ -2341,7 +4069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "P0841"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -2556,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "SPRAGUE 594D"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -2587,17 +4315,152 @@
 		)
 	)
 	(symbol
-		(lib_id "mc_Symbols:LM2678S-5.0")
-		(at 96.52 48.26 0)
+		(lib_id "power:+12V")
+		(at 168.91 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "deb4d63f-636d-4bcc-80d5-c1cd90a4279d")
+		(property "Reference" "#PWR06"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 172.72 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "826a3662-a2c8-41d6-b3d6-37abc4bf2c9a")
+		)
+		(instances
+			(project ""
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR340")
+		(at 137.16 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c91773-46ff-4e9c-a8ba-fd671b565d71")
+		(property "Reference" "D3"
+			(at 132.334 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBR340"
+			(at 127.254 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 132.715 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "863f1aa1-b052-4bf9-84c5-6e9a67c11930")
+		)
+		(pin "2"
+			(uuid "c40f45a5-61a7-47bb-9c20-2525706378a7")
+		)
+		(instances
+			(project ""
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mc_Symbols:LM2678S-5.0")
+		(at 96.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f456ae3c-4b3c-44ae-9cff-5b368cb9befd")
 		(property "Reference" "U?"
-			(at 85.09 27.94 0)
+			(at 96.52 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +4468,7 @@
 			)
 		)
 		(property "Value" "LM2678S-5.0"
-			(at 90.424 30.48 0)
+			(at 96.52 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +4476,7 @@
 			)
 		)
 		(property "Footprint" "LM2678S-5.0:TO127P1435X464-8N"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +4495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +4504,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +4514,7 @@
 			)
 		)
 		(property "Description_1" "8V to 40V, 5A SIMPLE SWITCHER® buck converter with high efficiency"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +4524,7 @@
 			)
 		)
 		(property "Package" "TO-263-7 Texas Instruments"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +4534,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +4544,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2678S-5.0/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +4554,7 @@
 			)
 		)
 		(property "MP" "LM2678S-5.0/NOPB"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +4564,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +4574,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LM2678S-5.0/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 96.52 48.26 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,6 +4617,75 @@
 			(project ""
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 30.48 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf9f54f-c8b7-4841-869d-d613b109e06b")
+		(property "Reference" "C1"
+			(at 29.464 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15u"
+			(at 29.21 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.4452 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPRAGUE 594D"
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b11d47c2-7ce9-44b3-8b01-6e336d019c99")
+		)
+		(pin "2"
+			(uuid "f8e5cddb-abcc-4705-af73-c74fd452a04b")
+		)
+		(instances
+			(project "pd"
+				(path "/c93b22d6-1b07-48b0-b5a2-b2eed09cd4ea"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2804,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "SPRAGUE 594D"
 			(at 36.83 43.18 0)
 			(effects
 				(font
