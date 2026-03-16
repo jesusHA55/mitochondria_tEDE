@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "mc_Footprints")(type "KiCad")(uri "${KIPRJMOD}/mc_Footprints.pretty")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.pretty")(options "")(descr ""))
 )

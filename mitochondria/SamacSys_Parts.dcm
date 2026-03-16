@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP VS-6TQ045S-M3
+D Diode Schottky 45V 6A 3-Pin(2+Tab) D2PAK Tube
+K
+F http://www.vishay.com/docs/94945/vs-6tqs-m3.pdf
+$ENDCMP
+#
+#End Doc Library
