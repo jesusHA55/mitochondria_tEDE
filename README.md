@@ -1,10 +1,10 @@
 # Medulla: The Autonomic Controller HAT
 
-**Project:** ED-E (Autonomous Companion Rover)  
+**Project:** tED-E (Autonomous Companion Rover)  
 **Chassis:** Duraframe (Modified Ikohs Netbot S12)  
 **Brain:** Raspberry Pi 5  
 
-The Medulla is a custom-designed Hardware Attached on Top (HAT) for the Raspberry Pi 5. It acts as the autonomic nervous system for the ED-E companion rover, managing high-current power distribution and low-level motor reflexes. By offloading hardware-level PWM generation and power regulation, the Medulla allows the Pi 5 to dedicate 100% of its CPU resources to high-level cognitive tasks: initially AruCo marker tracking, and eventually full RGB-D GL-VSLAM mapping.
+The Medulla is a custom-designed Hardware Attached on Top (HAT) for the Raspberry Pi 5. It acts as the autonomic nervous system for the tED-E companion rover, managing high-current power distribution and low-level motor reflexes. By offloading hardware-level PWM generation and power regulation, the Medulla allows the Pi 5 to dedicate 100% of its CPU resources to high-level cognitive tasks: initially AruCo marker tracking, and eventually full RGB-D GL-VSLAM mapping.
 
 ---
 
