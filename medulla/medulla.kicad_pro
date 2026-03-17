@@ -434,6 +434,10 @@
     [
       "a32a4212-31b2-4560-9330-e8ef727afdb0",
       "Motor Driver"
+    ],
+    [
+      "b6832633-0f89-4ab7-81e7-a15e779a91d0",
+      "Peripherals"
     ]
   ],
   "text_variables": {}

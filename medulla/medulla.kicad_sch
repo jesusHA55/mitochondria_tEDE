@@ -49,7 +49,7 @@
 			)
 		)
 		(instances
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
 					(page "3")
 				)
@@ -58,7 +58,7 @@
 	)
 	(sheet
 		(at 17.78 52.07)
-		(size 57.15 33.02)
+		(size 57.15 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -82,7 +82,7 @@
 			)
 		)
 		(property "Sheetfile" "bms.kicad_sch"
-			(at 17.78 85.6746 0)
+			(at 17.78 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,68 +90,8 @@
 				(justify left top)
 			)
 		)
-		(pin "CELL_0" input
-			(at 74.93 60.325 0)
-			(uuid "7461283b-baa7-45fa-ab95-de4f63d9a955")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CELL_1" input
-			(at 74.93 64.135 0)
-			(uuid "804b2f9b-204a-45c6-bed0-bc28d5e1e63f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CELL_2" input
-			(at 74.93 67.945 0)
-			(uuid "bbf68a46-9da3-420d-a54a-8afa4de3635d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CELL_3" input
-			(at 74.93 71.755 0)
-			(uuid "0706b21a-c910-4907-a048-3e8fdc442f1b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CELL_4" input
-			(at 74.93 75.565 0)
-			(uuid "9b6baeab-9138-47ea-b3ac-83169f0165b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PRES" input
-			(at 74.93 78.105 0)
-			(uuid "c3e55f89-5467-47bb-9952-c9e5cb47896a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
 					(page "4")
 				)
@@ -159,8 +99,8 @@
 		)
 	)
 	(sheet
-		(at 78.105 52.07)
-		(size 53.34 32.385)
+		(at 135.255 52.07)
+		(size 52.705 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -175,7 +115,7 @@
 		)
 		(uuid "5cee42f7-61c6-4778-b962-2e73db37d39a")
 		(property "Sheetname" "Conditioning"
-			(at 78.105 51.3584 0)
+			(at 135.255 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +124,7 @@
 			)
 		)
 		(property "Sheetfile" "cond.kicad_sch"
-			(at 78.105 85.0396 0)
+			(at 135.255 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +133,7 @@
 			)
 		)
 		(instances
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
 					(page "5")
 				)
@@ -244,9 +184,60 @@
 			)
 		)
 		(instances
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 52.07)
+		(size 52.07 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6832633-0f89-4ab7-81e7-a15e779a91d0")
+		(property "Sheetname" "Peripherals"
+			(at 78.74 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "per.kicad_sch"
+			(at 78.74 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "7")
 				)
 			)
 		)
@@ -294,7 +285,7 @@
 			)
 		)
 		(instances
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
 					(page "2")
 				)

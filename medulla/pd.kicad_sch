@@ -2758,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc742ee-8c85-4d27-a7f0-ad25f469d6f6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 29.21 99.06 0)
 			(effects
 				(font
@@ -2813,6 +2813,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2825,7 +2831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db915e3-2e98-4518-a93b-b2f1c897e842")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 96.52 74.93 0)
 			(effects
 				(font
@@ -2879,6 +2885,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2890,7 +2902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17b80b37-d1e1-46d9-85b0-4acf92a0a742")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 42.164 93.98 0)
 			(effects
 				(font
@@ -2948,6 +2960,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2959,7 +2977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a05e4a5-3cf6-443c-97f6-a92820fdcd50")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 42.164 30.48 0)
 			(effects
 				(font
@@ -3035,7 +3053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d15399a-792d-445a-adad-f77c299b8f98")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -3190,6 +3208,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3201,7 +3225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c43e4a1-5f3f-475b-ae0b-b7e2323b52a0")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 144.78 117.348 0)
 			(effects
 				(font
@@ -3259,6 +3283,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3270,7 +3300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c8fe43c-c90d-4793-bbae-d2cbcf254735")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 144.78 53.848 0)
 			(effects
 				(font
@@ -3354,7 +3384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ea50749-d9e7-4662-a027-752c0b017701")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 29.464 30.48 0)
 			(effects
 				(font
@@ -3429,7 +3459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f5836e6-fcc4-4fc7-9d0f-56b814a64ccd")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 48.26 30.48 0)
 			(effects
 				(font
@@ -3505,7 +3535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "595117da-31de-43da-b805-99daf42e6ed7")
-		(property "Reference" "L1"
+		(property "Reference" "L?"
 			(at 143.51 106.68 90)
 			(effects
 				(font
@@ -3561,6 +3591,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3572,7 +3608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62be2300-ecdc-4e10-9df5-ad4d18849341")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 35.814 93.98 0)
 			(effects
 				(font
@@ -3630,6 +3666,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3641,7 +3683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b41821b-aa21-4692-94b1-422a9ffb6280")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 48.26 93.98 0)
 			(effects
 				(font
@@ -3699,6 +3741,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3710,7 +3758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7132eaf1-9b84-4e45-8005-7110bc16fa35")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 120.65 106.934 90)
 			(effects
 				(font
@@ -3766,6 +3814,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3777,7 +3831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78376252-a44e-4663-957e-e233c022fce5")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 131.572 56.896 90)
 			(effects
 				(font
@@ -3890,6 +3944,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3902,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f50cb26-7816-4b01-aaaf-ad37971467f7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -3956,6 +4016,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3968,7 +4034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9192a40e-9eb3-4e68-b0af-75e2a2d4ba5a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -4023,6 +4089,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4035,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba55253e-1747-42eb-a175-f6ba1be6aaaf")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 143.51 43.18 90)
 			(effects
 				(font
@@ -4109,7 +4181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf10df0b-9a9c-4fe2-8af8-1e4a0768ba2a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 29.21 35.56 0)
 			(effects
 				(font
@@ -4164,6 +4236,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4175,7 +4253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf7f08c7-19c8-43c3-9667-2ff70f0e9907")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 120.65 43.434 90)
 			(effects
 				(font
@@ -4248,7 +4326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de3c12ea-8b1e-48df-b174-c6f9419ad751")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 157.48 53.848 0)
 			(effects
 				(font
@@ -4324,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb4d63f-636d-4bcc-80d5-c1cd90a4279d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -4379,6 +4457,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4390,7 +4474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c91773-46ff-4e9c-a8ba-fd671b565d71")
-		(property "Reference" "D3"
+		(property "Reference" "D?"
 			(at 132.334 116.586 90)
 			(effects
 				(font
@@ -4448,6 +4532,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4459,7 +4549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f456ae3c-4b3c-44ae-9cff-5b368cb9befd")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 96.52 28.194 0)
 			(effects
 				(font
@@ -4631,7 +4721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf9f54f-c8b7-4841-869d-d613b109e06b")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 29.464 93.98 0)
 			(effects
 				(font
@@ -4689,6 +4779,12 @@
 					(unit 1)
 				)
 			)
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4700,7 +4796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff6e16ae-a82f-4996-bbdf-1975657bb796")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 35.814 30.48 0)
 			(effects
 				(font
