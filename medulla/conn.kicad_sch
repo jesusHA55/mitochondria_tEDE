@@ -248,6 +248,355 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1817,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063c3a30-f345-40ef-9724-95a6bad707fd")
+	)
+	(wire
+		(pts
 			(xy 30.48 27.94) (xy 49.53 27.94)
 		)
 		(stroke
@@ -1877,6 +2236,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b969baf-9c59-496c-8035-3a4fa0a64887")
+	)
+	(wire
+		(pts
 			(xy 77.47 25.4) (xy 78.74 25.4)
 		)
 		(stroke
@@ -1884,6 +2253,26 @@
 			(type default)
 		)
 		(uuid "3bb042ce-2c7e-4405-99f2-7a2e1aef0102")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ee2c93-9e50-484f-975d-76f0dfe60575")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4816066a-33d3-4213-b06d-ae7492b675a4")
 	)
 	(wire
 		(pts
@@ -1917,6 +2306,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 69.85) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e825d0b-8a85-4fd8-8211-b3999c358a69")
+	)
+	(wire
+		(pts
 			(xy 74.93 60.96) (xy 78.74 60.96)
 		)
 		(stroke
@@ -1924,6 +2323,16 @@
 			(type default)
 		)
 		(uuid "740ae6e7-7cbe-45ea-b036-9c3f3e118c43")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74794d45-cb3b-45ac-8590-78403aa0b060")
 	)
 	(wire
 		(pts
@@ -1944,6 +2353,16 @@
 			(type default)
 		)
 		(uuid "78623875-e217-4581-a8ad-8b256c78d914")
+	)
+	(wire
+		(pts
+			(xy 115.57 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793d4080-76a5-4f3b-ba62-5057521a69e1")
 	)
 	(wire
 		(pts
@@ -2107,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b70e55-0a57-4c52-a449-8b0b639131ed")
+	)
+	(wire
+		(pts
 			(xy 77.47 27.94) (xy 77.47 25.4)
 		)
 		(stroke
@@ -2117,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa07216-a230-4b99-80c7-f34c03cc158d")
+	)
+	(wire
+		(pts
 			(xy 30.48 17.78) (xy 30.48 19.05)
 		)
 		(stroke
@@ -2124,6 +2563,16 @@
 			(type default)
 		)
 		(uuid "e063295a-8f90-4699-ade2-7df0d859e151")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b1db13-360c-42aa-bcb1-f302770cad17")
 	)
 	(wire
 		(pts
@@ -2157,6 +2606,28 @@
 			)
 		)
 	)
+	(global_label "PhB_Blue_MB"
+		(shape input)
+		(at 115.57 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a969815-527c-44ab-a19c-1d55fc0a7a46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0664 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MotB_+"
 		(shape input)
 		(at 116.84 39.37 180)
@@ -2179,6 +2650,28 @@
 			)
 		)
 	)
+	(global_label "SW_Purple_MB"
+		(shape input)
+		(at 115.57 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6908a460-ef24-493d-852b-bb8352030c18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.1593 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 27.94 30.48 180)
@@ -2192,6 +2685,28 @@
 		(uuid "8c63cfa7-bebd-44f7-b92a-62fac6cd1691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.4472 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PhA_Green_MB"
+		(shape input)
+		(at 115.57 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95bbfa5b-10c6-4535-9b1e-d3b65289a1d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0382 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,6 +2760,28 @@
 			)
 		)
 	)
+	(global_label "PhB_Blue_MA"
+		(shape input)
+		(at 115.57 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e08d6fe7-7a04-4f9b-91d2-f71920f15f12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.2478 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MotA_-"
 		(shape input)
 		(at 116.84 29.21 180)
@@ -2258,6 +2795,50 @@
 		(uuid "ea0b09f2-b72b-484f-9840-0006997fdc4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.9001 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PhA_Green_MA"
+		(shape input)
+		(at 115.57 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eea15ec6-5be2-41ce-837b-8c70ba1e0794")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2196 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_Purple_MA"
+		(shape input)
+		(at 115.57 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c20dd0-fee6-4298-b939-a896c4625699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.3407 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,6 +2932,73 @@
 			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3157bcd5-ca18-4ddb-af40-60c847c665d8")
+		(property "Reference" "#PWR018"
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19e20e1d-fb22-43cf-afaa-ffff8efa6a2d")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2844,6 +3492,140 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 115.57 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6664755e-fa12-4943-a201-07f5f3ca736d")
+		(property "Reference" "#PWR016"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a76995-038d-4378-9283-a7f0c5b4f71d")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 115.57 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa2180d-455a-4c53-8869-ae4ca0df2a61")
+		(property "Reference" "#PWR017"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 111.76 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ac8f16-28b2-4229-9827-067b286e61e1")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 78.74 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3261,6 +4043,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 115.57 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a58699ae-36de-48c1-b38f-2aaa7edaae51")
+		(property "Reference" "#PWR031"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 111.76 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de125f0c-f9c6-49f2-a53b-df30b634c1ec")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mc_Symbols:ESQ-120-XX-X-D-XX")
 		(at 62.23 48.26 0)
 		(unit 1)
@@ -3631,6 +4480,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 127 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce2e7d90-6bcb-45f2-9d82-160263876bda")
+		(property "Reference" "J1"
+			(at 129.54 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x05"
+			(at 129.54 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa9b5a87-f4d4-4445-a272-e2578c181bc4")
+		)
+		(pin "2"
+			(uuid "f24b7fd9-4180-4fb7-98cd-6006bcda24c7")
+		)
+		(pin "4"
+			(uuid "af3e57db-43e2-4cb7-95ae-8740859cdc36")
+		)
+		(pin "3"
+			(uuid "2a64fe0b-4c30-4a1d-991a-cc43b16ff7e7")
+		)
+		(pin "5"
+			(uuid "160bdb20-3e01-4196-9b97-cc56e746e8aa")
+		)
+		(instances
+			(project ""
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 78.74 66.04 270)
 		(unit 1)
@@ -3692,6 +4620,85 @@
 			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3f163c0-7ec2-4cec-a45b-32e532b569b8")
+		(property "Reference" "J2"
+			(at 129.54 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x05"
+			(at 129.54 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ee6aec-30ab-4e51-b0f2-1e3a49fc0c75")
+		)
+		(pin "2"
+			(uuid "d4ffb0c8-4461-49ec-9480-09f57ddc5127")
+		)
+		(pin "4"
+			(uuid "f715b9cd-da55-49ee-bdd0-fdc5c8252376")
+		)
+		(pin "3"
+			(uuid "8cdc828a-e3c1-421a-b7d1-9b5a4ba8f5ac")
+		)
+		(pin "5"
+			(uuid "df755b41-19db-4b2a-bac0-03a224a8a8a6")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
+					(reference "J2")
 					(unit 1)
 				)
 			)
